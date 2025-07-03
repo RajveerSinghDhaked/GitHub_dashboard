@@ -9,15 +9,26 @@
             body {
                 margin: 20px;
             }
-            h1 {
+            .header {
                 background: orange;
                 color: white;
-                padding: 15px;
-                text-align: center;
+                padding: 15px 30px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
                 border-radius: 10px;
+                font-family: Arial, sans-serif;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .datetime {
+                text-align: right;
+                font-size: 18px;
+                font-weight: normal;
+                line-height: 1.4;
             }
             .section {
-                margin-bottom: 10px;  /* Reduced gap between sections */
+                margin-bottom: 10px;
             }
             table {
                 width: 100%;
@@ -34,7 +45,21 @@
         </style>
     </head>
     <body>
-        <h1>Simulator Strategy Positions and PnL Viewer</h1>
+        <div class="header">
+            <span>Simulator Strategy Positions and PnL Viewer</span>
+            <span class="datetime" id="datetime"></span>
+        </div>
+
+        <script>
+            function updateDateTime() {
+                const now = new Date();
+                const date = now.toLocaleDateString('en-GB');
+                const time = now.toLocaleTimeString('en-GB');
+                document.getElementById('datetime').innerHTML = `${date}<br>${time}`;
+            }
+            updateDateTime();
+            setInterval(updateDateTime, 1000);
+        </script>
 
         <div class="section">
             <h4>📁 Portfolio-wise Total PnL</h4>
