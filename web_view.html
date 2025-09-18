@@ -76,17 +76,17 @@
   <tbody>
     <tr>
       <td>NOTREND</td>
-      <td>58.0</td>
+      <td>329.0</td>
       <td>645984.0</td>
+      <td>0.05%</td>
       <td>0.01%</td>
-      <td>0.0%</td>
     </tr>
     <tr>
       <td>SUPERTREND</td>
-      <td>301.0</td>
+      <td>563.0</td>
       <td>5167872.0</td>
       <td>0.01%</td>
-      <td>0.0%</td>
+      <td>0.01%</td>
     </tr>
   </tbody>
 </table>
@@ -106,9 +106,9 @@
   <tbody>
     <tr>
       <td>sensex</td>
-      <td>359.0</td>
+      <td>892.0</td>
       <td>8723112.0</td>
-      <td>0.0%</td>
+      <td>0.01%</td>
     </tr>
   </tbody>
 </table>
@@ -127,10 +127,10 @@
   </thead>
   <tbody>
     <tr>
-      <td>359.0</td>
+      <td>892.0</td>
       <td>5813856.0</td>
-      <td>0.01%</td>
-      <td>0.0</td>
+      <td>0.02%</td>
+      <td>0.02</td>
     </tr>
   </tbody>
 </table>
@@ -147,7 +147,7 @@
         </div>
 
         <script>
-            var chartData = {"Minute": ["09:17", "09:18", "09:19", "09:20", "09:21", "09:22"], "notrend": [-0.01, -0.02, -0.02, -0.03, -0.0, 0.01], "supertrend": [NaN, -0.0, -0.0, -0.01, 0.0, 0.01]};
+            var chartData = {"Minute": ["09:17", "09:18", "09:19", "09:20", "09:21", "09:22", "09:23"], "notrend": [-0.01, -0.02, -0.02, -0.03, -0.0, 0.02, 0.05], "supertrend": [NaN, -0.0, -0.0, -0.01, 0.0, 0.01, 0.01]};
             var traces = [];
             var time = chartData["Minute"];
 
@@ -176,7 +176,7 @@
                 margin: { t: 40, b:100, l: 60, r: 20 }
             });
 
-            var overallData = {"Minute": ["09:17", "09:18", "09:19", "09:20", "09:21", "09:22"], "Book_Percentage": [-0.00125, -0.0025, -0.0025, -0.00875, 0.0, 0.00625]};
+            var overallData = {"Minute": ["09:17", "09:18", "09:19", "09:20", "09:21", "09:22", "09:23"], "Book_Percentage": [-0.00125, -0.0025, -0.0025, -0.00875, 0.0, 0.0075, 0.01125]};
 
             var overallTrace = {
                 x: overallData["Minute"],
@@ -219,123 +219,147 @@
   </thead>
   <tbody>
     <tr>
-      <td>2025-09-18 09:22:47</td>
+      <td>2025-09-18 09:23:31</td>
       <td>Call</td>
       <td>SENSEX2591883000CE</td>
       <td>20.0</td>
       <td>150.00</td>
-      <td>148.90</td>
-      <td>22.0</td>
+      <td>155.30</td>
+      <td>-106.0</td>
       <td>sensex</td>
       <td>psxnotrend_1_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-09-18 09:22:47</td>
+      <td>2025-09-18 09:23:31</td>
       <td>Put</td>
       <td>SENSEX2591883000PE</td>
       <td>20.0</td>
       <td>104.40</td>
-      <td>103.05</td>
-      <td>27.0</td>
+      <td>93.00</td>
+      <td>228.0</td>
       <td>sensex</td>
       <td>psxnotrend_1_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-09-18 09:22:47</td>
+      <td>2025-09-18 09:23:31</td>
       <td>Call</td>
       <td>SENSEX2591883100CE</td>
       <td>20.0</td>
       <td>100.95</td>
-      <td>100.15</td>
-      <td>16.0</td>
+      <td>103.50</td>
+      <td>-51.0</td>
       <td>sensex</td>
       <td>psxnotrend_2_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-09-18 09:22:47</td>
+      <td>2025-09-18 09:23:31</td>
       <td>Put</td>
       <td>SENSEX2591883100PE</td>
       <td>20.0</td>
       <td>154.05</td>
-      <td>154.40</td>
-      <td>-7.0</td>
+      <td>141.15</td>
+      <td>258.0</td>
       <td>sensex</td>
       <td>psxnotrend_2_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-09-18 09:22:50</td>
+      <td>2025-09-18 09:23:31</td>
       <td>Call</td>
       <td>SENSEX2591883000CE</td>
       <td>20.0</td>
       <td>141.85</td>
-      <td>148.30</td>
-      <td>-129.0</td>
+      <td>155.35</td>
+      <td>-270.0</td>
       <td>sensex</td>
       <td>psxsupertrend_1_A</td>
       <td>supertrend</td>
     </tr>
     <tr>
-      <td>2025-09-18 09:22:50</td>
+      <td>2025-09-18 09:23:31</td>
       <td>Put</td>
       <td>SENSEX2591883000PE</td>
       <td>20.0</td>
       <td>115.45</td>
-      <td>103.65</td>
-      <td>236.0</td>
+      <td>93.00</td>
+      <td>449.0</td>
       <td>sensex</td>
       <td>psxsupertrend_1_A</td>
       <td>supertrend</td>
     </tr>
     <tr>
-      <td>2025-09-18 09:22:49</td>
+      <td>2025-09-18 09:23:31</td>
       <td>Call</td>
       <td>SENSEX2591883000CE</td>
       <td>20.0</td>
       <td>141.85</td>
-      <td>148.70</td>
-      <td>-137.0</td>
+      <td>155.35</td>
+      <td>-270.0</td>
       <td>sensex</td>
       <td>psxsupertrend_1_B</td>
       <td>supertrend</td>
     </tr>
     <tr>
-      <td>2025-09-18 09:22:49</td>
+      <td>2025-09-18 09:23:31</td>
       <td>Put</td>
       <td>SENSEX2591883000PE</td>
       <td>20.0</td>
       <td>115.45</td>
-      <td>103.75</td>
-      <td>234.0</td>
+      <td>93.00</td>
+      <td>449.0</td>
       <td>sensex</td>
       <td>psxsupertrend_1_B</td>
       <td>supertrend</td>
     </tr>
     <tr>
-      <td>2025-09-18 09:22:49</td>
+      <td>2025-09-18 09:23:31</td>
       <td>Call</td>
       <td>SENSEX2591883000CE</td>
       <td>20.0</td>
       <td>141.85</td>
-      <td>148.70</td>
-      <td>-137.0</td>
+      <td>155.35</td>
+      <td>-270.0</td>
       <td>sensex</td>
       <td>psxsupertrend_1_C</td>
       <td>supertrend</td>
     </tr>
     <tr>
-      <td>2025-09-18 09:22:49</td>
+      <td>2025-09-18 09:23:31</td>
       <td>Put</td>
       <td>SENSEX2591883000PE</td>
       <td>20.0</td>
       <td>115.45</td>
-      <td>103.75</td>
-      <td>234.0</td>
+      <td>93.45</td>
+      <td>440.0</td>
       <td>sensex</td>
       <td>psxsupertrend_1_C</td>
+      <td>supertrend</td>
+    </tr>
+    <tr>
+      <td>2025-09-18 09:23:32</td>
+      <td>Call</td>
+      <td>SENSEX2591883000CE</td>
+      <td>20.0</td>
+      <td>148.15</td>
+      <td>155.35</td>
+      <td>-144.0</td>
+      <td>sensex</td>
+      <td>psxsupertrend_2_A</td>
+      <td>supertrend</td>
+    </tr>
+    <tr>
+      <td>2025-09-18 09:23:32</td>
+      <td>Put</td>
+      <td>SENSEX2591883000PE</td>
+      <td>20.0</td>
+      <td>102.40</td>
+      <td>93.45</td>
+      <td>179.0</td>
+      <td>sensex</td>
+      <td>psxsupertrend_2_A</td>
       <td>supertrend</td>
     </tr>
   </tbody>
