@@ -75,24 +75,10 @@
   </thead>
   <tbody>
     <tr>
-      <td>MS</td>
-      <td>5857.0</td>
-      <td>1431684.0</td>
-      <td>0.41%</td>
-      <td>0.05%</td>
-    </tr>
-    <tr>
-      <td>STNS</td>
-      <td>252.0</td>
-      <td>238664.0</td>
-      <td>0.11%</td>
-      <td>0.01%</td>
-    </tr>
-    <tr>
       <td>NOTREND</td>
-      <td>2097.0</td>
+      <td>2489.0</td>
       <td>477328.0</td>
-      <td>0.44%</td>
+      <td>0.52%</td>
       <td>0.03%</td>
     </tr>
   </tbody>
@@ -113,9 +99,9 @@
   <tbody>
     <tr>
       <td>sensex</td>
-      <td>8206.0</td>
+      <td>2489.0</td>
       <td>2625004.0</td>
-      <td>0.31%</td>
+      <td>0.09%</td>
     </tr>
   </tbody>
 </table>
@@ -134,10 +120,10 @@
   </thead>
   <tbody>
     <tr>
-      <td>8206.0</td>
-      <td>2147676.0</td>
-      <td>0.38%</td>
-      <td>0.09</td>
+      <td>2489.0</td>
+      <td>477328.0</td>
+      <td>0.52%</td>
+      <td>0.03</td>
     </tr>
   </tbody>
 </table>
@@ -154,7 +140,7 @@
         </div>
 
         <script>
-            var chartData = {"Minute": ["09:17", "09:18", "09:19", "09:20", "09:21", "09:22", "09:23", "09:24", "09:25", "09:26", "09:27", "09:28", "09:29", "09:30", "09:31", "09:32", "09:33", "09:34", "09:35", "09:36", "09:37", "09:38", "09:39", "09:40", "09:41", "09:42"], "MS": [NaN, NaN, NaN, NaN, 0.03, 0.03, 0.02, -0.01, -0.08, -0.08, -0.21, -0.2, -0.15, -0.22, -0.32, -0.15, -0.07, 0.21, 0.3, 0.33, 0.36, 0.34, 0.33, 0.3, 0.41, 0.41], "STNS": [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, -0.03, -0.04, -0.02, -0.04, -0.05, -0.02, 0.01, 0.08, 0.08, 0.09, 0.09, 0.08, 0.07, 0.07, 0.09, 0.11], "notrend": [0.03, 0.06, 0.06, 0.09, 0.07, 0.08, 0.05, 0.09, 0.06, 0.08, 0.03, 0.01, 0.06, 0.0, -0.07, 0.06, 0.13, 0.39, 0.41, 0.41, 0.45, 0.39, 0.39, 0.34, 0.41, 0.44]};
+            var chartData = {"Minute": ["09:17", "09:18", "09:19", "09:20", "09:21", "09:22", "09:23", "09:24", "09:25", "09:26", "09:27", "09:28", "09:29", "09:30", "09:31", "09:32", "09:33", "09:34", "09:35", "09:36", "09:37", "09:38", "09:39", "09:40", "09:41", "09:42", "09:43"], "notrend": [0.03, 0.06, 0.06, 0.09, 0.07, 0.08, 0.05, 0.09, 0.06, 0.08, 0.03, 0.01, 0.06, 0.0, -0.07, 0.06, 0.13, 0.39, 0.41, 0.41, 0.45, 0.39, 0.39, 0.34, 0.41, 0.53, 0.52]};
             var traces = [];
             var time = chartData["Minute"];
 
@@ -183,7 +169,7 @@
                 margin: { t: 40, b:100, l: 60, r: 20 }
             });
 
-            var overallData = {"Minute": ["09:17", "09:18", "09:19", "09:20", "09:21", "09:22", "09:23", "09:24", "09:25", "09:26", "09:27", "09:28", "09:29", "09:30", "09:31", "09:32", "09:33", "09:34", "09:35", "09:36", "09:37", "09:38", "09:39", "09:40", "09:41", "09:42"], "Book_Percentage": [0.001875, 0.00375, 0.00375, 0.005625, 0.004375, 0.005, 0.003125, 0.005625, 0.00375, 0.005, 0.001875, 0.000625, 0.00375, 0.0, -0.004375, 0.00375, 0.008125, 0.024375, 0.025625, 0.025625, 0.028125, 0.024375, 0.024375, 0.02125, 0.025625, 0.0275]};
+            var overallData = {"Minute": ["09:17", "09:18", "09:19", "09:20", "09:21", "09:22", "09:23", "09:24", "09:25", "09:26", "09:27", "09:28", "09:29", "09:30", "09:31", "09:32", "09:33", "09:34", "09:35", "09:36", "09:37", "09:38", "09:39", "09:40", "09:41", "09:42", "09:43"], "Book_Percentage": [0.001875, 0.00375, 0.00375, 0.005625, 0.004375, 0.005, 0.003125, 0.005625, 0.00375, 0.005, 0.001875, 0.000625, 0.00375, 0.0, -0.004375, 0.00375, 0.008125, 0.024375, 0.025625, 0.025625, 0.028125, 0.024375, 0.024375, 0.02125, 0.025625, 0.033125, 0.0325]};
 
             var overallTrace = {
                 x: overallData["Minute"],
@@ -226,412 +212,100 @@
   </thead>
   <tbody>
     <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Call1</td>
-      <td>SENSEX25OCT84700CE</td>
-      <td>20.0</td>
-      <td>418.55</td>
-      <td>377.45</td>
-      <td>822.0</td>
-      <td>sensex</td>
-      <td>psxms_1_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Put1</td>
-      <td>SENSEX25OCT84700PE</td>
-      <td>20.0</td>
-      <td>211.20</td>
-      <td>223.50</td>
-      <td>-246.0</td>
-      <td>sensex</td>
-      <td>psxms_1_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Call2</td>
-      <td>SENSEX25OCT84800CE</td>
-      <td>20.0</td>
-      <td>360.45</td>
-      <td>320.55</td>
-      <td>798.0</td>
-      <td>sensex</td>
-      <td>psxms_1_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Put2</td>
-      <td>SENSEX25OCT84600PE</td>
-      <td>20.0</td>
-      <td>175.80</td>
-      <td>185.45</td>
-      <td>-193.0</td>
-      <td>sensex</td>
-      <td>psxms_1_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Call3</td>
-      <td>SENSEX25OCT84900CE</td>
-      <td>20.0</td>
-      <td>305.00</td>
-      <td>268.45</td>
-      <td>731.0</td>
-      <td>sensex</td>
-      <td>psxms_1_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Put3</td>
-      <td>SENSEX25OCT84500PE</td>
-      <td>20.0</td>
-      <td>146.60</td>
-      <td>153.50</td>
-      <td>-138.0</td>
-      <td>sensex</td>
-      <td>psxms_1_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Call1</td>
-      <td>SENSEX25OCT84700CE</td>
-      <td>20.0</td>
-      <td>405.00</td>
-      <td>379.05</td>
-      <td>519.0</td>
-      <td>sensex</td>
-      <td>psxms_2_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Put1</td>
-      <td>SENSEX25OCT84700PE</td>
-      <td>20.0</td>
-      <td>220.40</td>
-      <td>223.50</td>
-      <td>-62.0</td>
-      <td>sensex</td>
-      <td>psxms_2_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Call2</td>
-      <td>SENSEX25OCT84800CE</td>
-      <td>20.0</td>
-      <td>347.55</td>
-      <td>320.55</td>
-      <td>540.0</td>
-      <td>sensex</td>
-      <td>psxms_2_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Put2</td>
-      <td>SENSEX25OCT84600PE</td>
-      <td>20.0</td>
-      <td>184.45</td>
-      <td>185.45</td>
-      <td>-20.0</td>
-      <td>sensex</td>
-      <td>psxms_2_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Call3</td>
-      <td>SENSEX25OCT84900CE</td>
-      <td>20.0</td>
-      <td>293.60</td>
-      <td>268.45</td>
-      <td>503.0</td>
-      <td>sensex</td>
-      <td>psxms_2_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Put3</td>
-      <td>SENSEX25OCT84500PE</td>
-      <td>20.0</td>
-      <td>152.95</td>
-      <td>153.50</td>
-      <td>-11.0</td>
-      <td>sensex</td>
-      <td>psxms_2_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Call1</td>
-      <td>SENSEX25OCT84700CE</td>
-      <td>20.0</td>
-      <td>418.55</td>
-      <td>379.05</td>
-      <td>790.0</td>
-      <td>sensex</td>
-      <td>psxms_3_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Put1</td>
-      <td>SENSEX25OCT84700PE</td>
-      <td>20.0</td>
-      <td>211.20</td>
-      <td>223.50</td>
-      <td>-246.0</td>
-      <td>sensex</td>
-      <td>psxms_3_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Call2</td>
-      <td>SENSEX25OCT84800CE</td>
-      <td>20.0</td>
-      <td>360.45</td>
-      <td>320.55</td>
-      <td>798.0</td>
-      <td>sensex</td>
-      <td>psxms_3_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Put2</td>
-      <td>SENSEX25OCT84600PE</td>
-      <td>20.0</td>
-      <td>175.80</td>
-      <td>185.45</td>
-      <td>-193.0</td>
-      <td>sensex</td>
-      <td>psxms_3_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Call3</td>
-      <td>SENSEX25OCT84900CE</td>
-      <td>20.0</td>
-      <td>305.00</td>
-      <td>268.45</td>
-      <td>731.0</td>
-      <td>sensex</td>
-      <td>psxms_3_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
-      <td>Put3</td>
-      <td>SENSEX25OCT84500PE</td>
-      <td>20.0</td>
-      <td>146.60</td>
-      <td>153.50</td>
-      <td>-138.0</td>
-      <td>sensex</td>
-      <td>psxms_3_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Call1</td>
-      <td>SENSEX25OCT84900CE</td>
-      <td>20.0</td>
-      <td>354.55</td>
-      <td>267.80</td>
-      <td>1735.0</td>
-      <td>sensex</td>
-      <td>psxms_4_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Put1</td>
-      <td>SENSEX25OCT84900PE</td>
-      <td>20.0</td>
-      <td>241.15</td>
-      <td>311.80</td>
-      <td>-1413.0</td>
-      <td>sensex</td>
-      <td>psxms_4_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Call2</td>
-      <td>SENSEX25OCT85000CE</td>
-      <td>20.0</td>
-      <td>299.30</td>
-      <td>222.50</td>
-      <td>1536.0</td>
-      <td>sensex</td>
-      <td>psxms_4_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Put2</td>
-      <td>SENSEX25OCT84800PE</td>
-      <td>20.0</td>
-      <td>202.35</td>
-      <td>263.95</td>
-      <td>-1232.0</td>
-      <td>sensex</td>
-      <td>psxms_4_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Call3</td>
-      <td>SENSEX25OCT85100CE</td>
-      <td>20.0</td>
-      <td>250.70</td>
-      <td>182.40</td>
-      <td>1366.0</td>
-      <td>sensex</td>
-      <td>psxms_4_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:20</td>
-      <td>Put3</td>
-      <td>SENSEX25OCT84700PE</td>
-      <td>20.0</td>
-      <td>167.50</td>
-      <td>223.50</td>
-      <td>-1120.0</td>
-      <td>sensex</td>
-      <td>psxms_4_A</td>
-      <td>MS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:21</td>
+      <td>2025-10-29 09:43:05</td>
       <td>Call</td>
       <td>SENSEX25OCT84900CE</td>
       <td>20.0</td>
       <td>373.90</td>
-      <td>268.45</td>
-      <td>2109.0</td>
+      <td>258.00</td>
+      <td>2318.0</td>
       <td>sensex</td>
       <td>psxnotrend_1_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-10-29 09:42:21</td>
+      <td>2025-10-29 09:43:05</td>
       <td>Put</td>
       <td>SENSEX25OCT84900PE</td>
       <td>20.0</td>
       <td>249.40</td>
-      <td>313.85</td>
-      <td>-1289.0</td>
+      <td>320.40</td>
+      <td>-1420.0</td>
       <td>sensex</td>
       <td>psxnotrend_1_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-10-29 09:42:21</td>
+      <td>2025-10-29 09:43:06</td>
       <td>Call</td>
       <td>SENSEX25OCT84700CE</td>
       <td>20.0</td>
       <td>403.85</td>
-      <td>379.05</td>
-      <td>496.0</td>
+      <td>366.30</td>
+      <td>751.0</td>
       <td>sensex</td>
       <td>psxnotrend_2_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-10-29 09:42:21</td>
+      <td>2025-10-29 09:43:06</td>
       <td>Put</td>
       <td>SENSEX25OCT84700PE</td>
       <td>20.0</td>
       <td>222.90</td>
-      <td>223.50</td>
-      <td>-12.0</td>
+      <td>228.80</td>
+      <td>-118.0</td>
       <td>sensex</td>
       <td>psxnotrend_2_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-10-29 09:42:21</td>
+      <td>2025-10-29 09:43:06</td>
       <td>Call</td>
       <td>SENSEX25OCT84800CE</td>
       <td>20.0</td>
       <td>389.00</td>
-      <td>318.40</td>
-      <td>1412.0</td>
+      <td>308.80</td>
+      <td>1604.0</td>
       <td>sensex</td>
       <td>psxnotrend_3_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-10-29 09:42:21</td>
+      <td>2025-10-29 09:43:06</td>
       <td>Put</td>
       <td>SENSEX25OCT84800PE</td>
       <td>20.0</td>
       <td>219.00</td>
-      <td>264.80</td>
-      <td>-916.0</td>
+      <td>271.65</td>
+      <td>-1053.0</td>
       <td>sensex</td>
       <td>psxnotrend_3_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-10-29 09:42:21</td>
+      <td>2025-10-29 09:43:07</td>
       <td>Call</td>
       <td>SENSEX25OCT84900CE</td>
       <td>20.0</td>
       <td>365.25</td>
-      <td>268.45</td>
-      <td>1936.0</td>
+      <td>257.10</td>
+      <td>2163.0</td>
       <td>sensex</td>
       <td>psxnotrend_4_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-10-29 09:42:21</td>
+      <td>2025-10-29 09:43:07</td>
       <td>Put</td>
       <td>SENSEX25OCT84900PE</td>
       <td>20.0</td>
       <td>231.90</td>
-      <td>313.85</td>
-      <td>-1639.0</td>
+      <td>319.70</td>
+      <td>-1756.0</td>
       <td>sensex</td>
       <td>psxnotrend_4_A</td>
       <td>notrend</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:24</td>
-      <td>Call</td>
-      <td>SENSEX25OCT85500CE</td>
-      <td>20.0</td>
-      <td>103.05</td>
-      <td>75.10</td>
-      <td>559.0</td>
-      <td>sensex</td>
-      <td>psxstns_1_A</td>
-      <td>STNS</td>
-    </tr>
-    <tr>
-      <td>2025-10-29 09:42:24</td>
-      <td>Put</td>
-      <td>SENSEX25OCT84100PE</td>
-      <td>20.0</td>
-      <td>53.05</td>
-      <td>68.40</td>
-      <td>-307.0</td>
-      <td>sensex</td>
-      <td>psxstns_1_A</td>
-      <td>STNS</td>
     </tr>
   </tbody>
 </table>
