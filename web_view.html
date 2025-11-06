@@ -76,10 +76,17 @@
   <tbody>
     <tr>
       <td>NOTREND</td>
-      <td>438.0</td>
+      <td>480.0</td>
       <td>738676.0</td>
       <td>0.06%</td>
       <td>0.01%</td>
+    </tr>
+    <tr>
+      <td>SUPERTREND</td>
+      <td>505.0</td>
+      <td>5909408.0</td>
+      <td>0.01%</td>
+      <td>0.0%</td>
     </tr>
   </tbody>
 </table>
@@ -99,9 +106,9 @@
   <tbody>
     <tr>
       <td>sensex</td>
-      <td>438.0</td>
+      <td>985.0</td>
       <td>9969970.0</td>
-      <td>0.0%</td>
+      <td>0.01%</td>
     </tr>
   </tbody>
 </table>
@@ -120,9 +127,9 @@
   </thead>
   <tbody>
     <tr>
-      <td>438.0</td>
-      <td>738676.0</td>
-      <td>0.06%</td>
+      <td>985.0</td>
+      <td>6648084.0</td>
+      <td>0.01%</td>
       <td>0.01</td>
     </tr>
   </tbody>
@@ -140,7 +147,7 @@
         </div>
 
         <script>
-            var chartData = {"Minute": ["09:17", "09:18", "09:19"], "notrend": [0.03, 0.04, 0.06]};
+            var chartData = {"Minute": ["09:17", "09:18", "09:19", "09:20"], "notrend": [0.03, 0.04, 0.08, 0.06], "supertrend": [NaN, 0.0, 0.01, 0.01]};
             var traces = [];
             var time = chartData["Minute"];
 
@@ -169,7 +176,7 @@
                 margin: { t: 40, b:100, l: 60, r: 20 }
             });
 
-            var overallData = {"Minute": ["09:17", "09:18", "09:19"], "Book_Percentage": [0.00375, 0.005, 0.0075]};
+            var overallData = {"Minute": ["09:17", "09:18", "09:19", "09:20"], "Book_Percentage": [0.00375, 0.005, 0.015, 0.0125]};
 
             var overallTrace = {
                 x: overallData["Minute"],
@@ -212,28 +219,124 @@
   </thead>
   <tbody>
     <tr>
-      <td>2025-11-06 09:19:48</td>
+      <td>2025-11-06 09:20:27</td>
       <td>Call</td>
       <td>SENSEX25N0683800CE</td>
       <td>20.0</td>
       <td>150.65</td>
-      <td>164.50</td>
-      <td>-277.0</td>
+      <td>164.90</td>
+      <td>-285.0</td>
       <td>sensex</td>
       <td>psxnotrend_1_A</td>
       <td>notrend</td>
     </tr>
     <tr>
-      <td>2025-11-06 09:19:48</td>
+      <td>2025-11-06 09:20:27</td>
       <td>Put</td>
       <td>SENSEX25N0683800PE</td>
       <td>20.0</td>
       <td>198.20</td>
-      <td>162.45</td>
-      <td>715.0</td>
+      <td>159.95</td>
+      <td>765.0</td>
       <td>sensex</td>
       <td>psxnotrend_1_A</td>
       <td>notrend</td>
+    </tr>
+    <tr>
+      <td>2025-11-06 09:20:32</td>
+      <td>Call</td>
+      <td>SENSEX25N0683700CE</td>
+      <td>20.0</td>
+      <td>201.80</td>
+      <td>223.15</td>
+      <td>-427.0</td>
+      <td>sensex</td>
+      <td>psxsupertrend_1_A</td>
+      <td>supertrend</td>
+    </tr>
+    <tr>
+      <td>2025-11-06 09:20:32</td>
+      <td>Put</td>
+      <td>SENSEX25N0683700PE</td>
+      <td>20.0</td>
+      <td>147.05</td>
+      <td>119.45</td>
+      <td>552.0</td>
+      <td>sensex</td>
+      <td>psxsupertrend_1_A</td>
+      <td>supertrend</td>
+    </tr>
+    <tr>
+      <td>2025-11-06 09:20:32</td>
+      <td>Call</td>
+      <td>SENSEX25N0683700CE</td>
+      <td>20.0</td>
+      <td>201.80</td>
+      <td>223.15</td>
+      <td>-427.0</td>
+      <td>sensex</td>
+      <td>psxsupertrend_1_B</td>
+      <td>supertrend</td>
+    </tr>
+    <tr>
+      <td>2025-11-06 09:20:32</td>
+      <td>Put</td>
+      <td>SENSEX25N0683700PE</td>
+      <td>20.0</td>
+      <td>147.05</td>
+      <td>119.45</td>
+      <td>552.0</td>
+      <td>sensex</td>
+      <td>psxsupertrend_1_B</td>
+      <td>supertrend</td>
+    </tr>
+    <tr>
+      <td>2025-11-06 09:20:32</td>
+      <td>Call</td>
+      <td>SENSEX25N0683700CE</td>
+      <td>20.0</td>
+      <td>201.80</td>
+      <td>223.15</td>
+      <td>-427.0</td>
+      <td>sensex</td>
+      <td>psxsupertrend_1_C</td>
+      <td>supertrend</td>
+    </tr>
+    <tr>
+      <td>2025-11-06 09:20:32</td>
+      <td>Put</td>
+      <td>SENSEX25N0683700PE</td>
+      <td>20.0</td>
+      <td>147.05</td>
+      <td>119.45</td>
+      <td>552.0</td>
+      <td>sensex</td>
+      <td>psxsupertrend_1_C</td>
+      <td>supertrend</td>
+    </tr>
+    <tr>
+      <td>2025-11-06 09:20:32</td>
+      <td>Call</td>
+      <td>SENSEX25N0683800CE</td>
+      <td>20.0</td>
+      <td>160.15</td>
+      <td>164.10</td>
+      <td>-79.0</td>
+      <td>sensex</td>
+      <td>psxsupertrend_1_D</td>
+      <td>supertrend</td>
+    </tr>
+    <tr>
+      <td>2025-11-06 09:20:32</td>
+      <td>Put</td>
+      <td>SENSEX25N0683800PE</td>
+      <td>20.0</td>
+      <td>170.40</td>
+      <td>159.95</td>
+      <td>209.0</td>
+      <td>sensex</td>
+      <td>psxsupertrend_1_D</td>
+      <td>supertrend</td>
     </tr>
   </tbody>
 </table>
